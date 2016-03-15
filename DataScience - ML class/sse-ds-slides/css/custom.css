@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@font-face {
+  font-family: 'Source Sans Pro-Light';
+  src: url(../fonts/SourceSansPro-Light.otf);
+}
+@font-face {
+  font-family: 'NewslabThin';
+  src: url(../fonts/NewslabThin.otf);
+}
+body {
+  font-size: 30px !important;
+  font-family: "Source Sans Pro-Light", "Open Sans", sans-serif !important;
+  font-weight: normal !important;
+}
+section {
+  line-height: 130% !important;
+}
+.title-slide {
+  color: white !important;
+}
+.title-slide h3 {
+  color: white !important;
+  font-family: "NewslabThin", serif !important;
+  font-weight: normal !important;
+  text-align: center;
+}
+.title-slide h1 {
+  color: white !important;
+  font-family: "NewslabThin", serif !important;
+  font-weight: normal !important;
+  text-align: center;
+  padding-top: 200px !important;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+.title-slide h1 img {
+  vertical-align: bottom;
+  margin-bottom: 0;
+}
+.title-slide p {
+  padding-top: 30px;
+  font-family: "Source Sans Pro-Light", "Open Sans", sans-serif;
+  text-align: center;
+  color: white !important;
+}
+.title-slide .spark-logo {
+  position: relative;
+  float: right;
+}
+.title-slide .section-header h1 {
+  font-family: "NewslabThin", serif;
+  font-weight: normal;
+  padding-top: 250px !important;
+}
+#footer {
+  position: absolute;
+  left: 100px;
+  bottom: 10px;
+  height: 75px;
+  width: 100%;
+  font-size: 15px;
+}
+#footer img.databricks-logo {
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+}
+.slide-number {
+  font-size: 15px !important;
+}
+.logo {
+  width: 100px;
+}
+img {
+  border: none !important;
+  background-color: transparent !important;
+  vertical-align: text-bottom;
+}
+p {
+  font-family: "Source Sans Pro-Light", "Open Sans", sans-serif !important;
+  text-align: left;
+  color: #444444 !important;
+}
+p.centered {
+  text-align: center;
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.logo img {
+  height: 60px !important;
+  border: 0;
+}
+h1 {
+  font-size: 50px !important;
+}
+h3 {
+  font-size: 35px !important;
+}
+h1,
+h2,
+h3 {
+  font-family: "NewslabThin", serif !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+  color: #444444 !important;
+}
+ul {
+  font-weight: normal !important;
+  font-family: "Source Sans Pro-Light", "Open Sans", sans-serif !important;
+  color: #444444 !important;
+}
+ul ul li {
+  font-size: smaller !important;
+}
+table {
+  font-family: "Source Sans Pro-Light", "Open Sans", sans-serif !important;
+  color: #444444 !important;
+}
+th {
+  font-family: "Source Sans Pro-Light", "Open Sans", sans-serif !important;
+  font-weight: normal !important;
+  color: white !important;
+  background-color: #1CB1C2;
+}
+tr {
+  font-size: smaller !important;
+  border-bottom: none;
+}
+.right {
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+.left {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.sidebar {
+  font-size: 14px !important;
+}
+pre {
+  border: 1px solid transparent !important;
+  padding: 0;
+  margin: 0 !important;
+  width: 100% !important;
+  box-shadow: 0 0 0 0 !important;
+}
+pre code {
+  padding: 15px !important;
+  font-family: Mensch, Consolas, Courier, monospace !important;
+  font-size: 16px;
+  max-height: 700px !important;
+  height: 100% !important;
+}
+pre code.small {
+  font-size: 14px;
+  line-height: 1.2;
+}
+img {
+  border-right-color: white !important;
+  border-left-color: white !important;
+  border-top-color: white !important;
+  border-bottom-color: white !important;
+  box-shadow: none !important;
+}
+.license {
+  font-size: 14px !important;
+  padding-top: 100px !important;
+  text-align: center;
+}
+.license a {
+  color: #444444;
+}
+.footnote {
+  font-size: 15px !important;
+}
