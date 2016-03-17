@@ -38,6 +38,11 @@ https://github.com/HortonworksUniversity/Essentials/blob/master/demos/SandboxSet
     Ambari Server 'start' completed successfully.
     It is suggested that you set the admin Ambari user's password to admin for consistency with the other web UIs.
 
+
+**Install numpy as we will use it in pyspark:**
+
+    sudo yum install -y numpy
+
 2) for the MEETUP lab, you will need to download datasets: Switch from root to zeppelin user. 
 
     sudo su - zeppelin
@@ -110,6 +115,16 @@ https://github.com/HortonworksUniversity/Essentials/blob/master/demos/SandboxSet
     git clone https://github.com/zeltovhorton/njmeetup_spark.git
 
 
+*4) Optional: It is recommended to increase the yarn memory per node for the spark jobs*  
+
+Login to the sandbox ambari UI
+
+http://sandbox:8080/#/login
+
+Click Yarn -> Config - increase yarn memory per node to 5120mb
+
+Than restart all necessary components that show the restart symbol
 
 > Written with [StackEdit](https://stackedit.io/).
+
 
