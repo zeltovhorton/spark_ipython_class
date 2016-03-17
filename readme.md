@@ -127,6 +127,21 @@ https://github.com/HortonworksUniversity/Essentials/blob/master/demos/SandboxSet
     
     Also stop all the unused components like : Atlas, Flume, Ranger to conserve memory on your HDP sandbox.
 
+5) Open a new tab in your browser and navigate to:
+
+http://sandbox:9995/#/
+
+Than click import notebook.
+
+If you cloned this github repo, you can point to your local filesystem: *phillyCrimeAnalysis.json*
+otherwise you can point to this url: 
+
+https://raw.githubusercontent.com/zeltovhorton/njmeetup_spark/master/phillyCrimeAnalysis.json
+
+Do the same for 2nd notebook:
+
+https://raw.githubusercontent.com/zeltovhorton/njmeetup_spark/master/recommendation_engine_als.json
+
 > Written with [StackEdit](https://stackedit.io/).
 
 
