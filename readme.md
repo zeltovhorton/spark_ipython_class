@@ -117,14 +117,18 @@ https://github.com/HortonworksUniversity/Essentials/blob/master/demos/SandboxSet
 
 *4) Optional: It is recommended to increase the yarn memory per node for the spark jobs*  
 
-Login to the sandbox ambari UI
+    Login to the sandbox ambari UI
 
-http://sandbox:8080/#/login
+[http://sandbox:8080/#/login](http://sandbox:8080/#/login)
 
-Click Yarn -> Config - increase yarn memory per node to 5120mb
-
-Than restart all necessary components that show the restart symbol
+    Click Yarn -> Config - increase yarn memory per node to 5120mb
+    
+    Than restart all necessary components that show the restart symbol
+    
+    Also stop all the unused components like : Atlas, Flume, Ranger to conserve memory on your HDP sandbox.
 
 > Written with [StackEdit](https://stackedit.io/).
+
+
 
 
