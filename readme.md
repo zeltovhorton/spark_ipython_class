@@ -103,6 +103,13 @@ https://github.com/HortonworksUniversity/Essentials/blob/master/demos/SandboxSet
 
 
 
+3) On your local machine , **NOT** the HDP sandbox.
+ 
+ Clone my repo to pull the Zeppelin notebooks:
+
+    git clone https://github.com/zeltovhorton/njmeetup_spark.git
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
+
